@@ -2,7 +2,7 @@
 <!DOCTYPE xml>
 <?eclipse.ant.import?>
 <project basedir="." default="create-war" name="build_war">
-	<property name="OUTPUTPATH" value="./export/" />
+	<property name="OUTPUTPATH" value="../export/" />
 	<property name="WARNAME" value="HelloJSP.war" />
 
 
