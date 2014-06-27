@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<?eclipse.ant.import?>
+<project basedir="." default="create-war" name="build_war">
+	<property name="OUTPUTPATH" value="./export/" />
+	<property name="WARNAME" value="HelloJSP.war" />
+
+
+	<target name="check-main-build-file" unless="main_build_exists">
+		<available property="main_build_exists" file="./build.xml" />
+		<echo>main_build_exists is ${main_build_exists}</echo>
+	</target>
+
+	<target name="build" />
+
+	<target name="create_temp_webcontent_folder" if="main_build_exists">
+		<tempfile property="WebContent" destDir="${java.io.tmpdir}" prefix="war" />
+		<mkdir dir="${WebContent}" />
+	</target>
+
+	<target name="clean_output_war">
+		<delete dir="${OUTPUTPATH}" />
+	</target>
+
+	<target name="create-war" description="Bundles the application as a WAR file" depends="check-main-build-file,clean_output_war, create_temp_webcontent_folder, build" if="main_build_exists">
+
+		<copy includeemptydirs="false" todir="${WebContent}/WEB-INF">
+			<fileset dir="war/WEB-INF">
+			</fileset>
+		</copy>
+
+		<mkdir dir="${WebContent}/WEB-INF/classes" />
+		<copy includeemptydirs="false" todir="${WebContent}/WEB-INF/classes">
+			<fileset dir="build/classes">
+				<include name="**/*.class" />
+			</fileset>
+		</copy>
+
+		<mkdir dir="${WebContent}/WEB-INF/lib" />
+		<copy includeemptydirs="false" todir="${WebContent}/WEB-INF/lib">
+			<fileset dir="../lib">
+				<include name="**/*.jar" />
+			</fileset>
+		</copy>
+
+		<war destfile="${OUTPUTPATH}${WARNAME}" basedir="${WebContent}" needxmlfile="true" />
+
+		<echo>Create war file in ${OUTPUTPATH}${WARNAME}</echo>
+	</target>
+</project>

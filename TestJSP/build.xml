@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="TestJSP">
+    <property environment="env"/>
+    <property name="J2EE7_CONTAINER_LIB" value="../../../../../usr/local/tomcat/apache-tomcat-8.0.9/lib"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
+    <path id="Web App Libraries.libraryclasspath"/>
+    <path id="EAR Libraries.libraryclasspath"/>
+    <path id="TestJSP.classpath">
+        <pathelement location="build/classes"/>
+        <path refid="Web App Libraries.libraryclasspath"/>
+        <path refid="EAR Libraries.libraryclasspath"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/annotations-api.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/catalina-ant.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/catalina-ha.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/catalina-storeconfig.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/catalina-tribes.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/catalina.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/ecj-4.4RC4.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/el-api.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/jasper-el.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/jasper.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/jsp-api.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/servlet-api.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/tomcat-api.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/tomcat-coyote.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/tomcat-dbcp.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/tomcat-i18n-es.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/tomcat-i18n-fr.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/tomcat-i18n-ja.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/tomcat-jdbc.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/tomcat-jni.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/tomcat-spdy.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/tomcat-util-scan.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/tomcat-util.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/tomcat-websocket.jar"/>
+        <pathelement location="${J2EE7_CONTAINER_LIB}/websocket-api.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="build/classes"/>
+        <copy includeemptydirs="false" todir="build/classes">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="build/classes"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="build/classes" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="TestJSP.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+</project>

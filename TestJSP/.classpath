@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Java SE 8 [1.8.0_05]">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/annotations-api.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-8.0-doc/servletapi/"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/catalina-ant.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-8.0-doc/servletapi/"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/catalina-ha.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-8.0-doc/servletapi/"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/catalina-storeconfig.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-8.0-doc/servletapi/"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/catalina-tribes.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-8.0-doc/servletapi/"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/catalina.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-8.0-doc/servletapi/"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/ecj-4.4RC4.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-8.0-doc/servletapi/"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/el-api.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-8.0-doc/servletapi/"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/jasper-el.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-8.0-doc/servletapi/"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/jasper.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-8.0-doc/servletapi/"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/jsp-api.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-8.0-doc/servletapi/"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/servlet-api.jar" sourcepath="/J2EE7_CONTAINER_SRC">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+			<attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-8.0-doc/servletapi/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-api.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-8.0-doc/api/"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-coyote.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-8.0-doc/api//"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-dbcp.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-8.0-doc/api/"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-i18n-es.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-8.0-doc/api/"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-i18n-fr.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-8.0-doc/api/"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-i18n-ja.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-8.0-doc/api/"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-jdbc.jar"/>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-jni.jar"/>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-spdy.jar"/>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-util-scan.jar"/>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-util.jar"/>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-websocket.jar"/>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/websocket-api.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
