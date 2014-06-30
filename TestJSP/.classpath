@@ -116,12 +116,40 @@
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-jdbc.jar"/>
-	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-jni.jar"/>
-	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-spdy.jar"/>
-	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-util-scan.jar"/>
-	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-util.jar"/>
-	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-websocket.jar"/>
-	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/websocket-api.jar"/>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-jdbc.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-jni.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-spdy.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-util-scan.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-util.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-websocket.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/websocket-api.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
