@@ -21,7 +21,7 @@ public class HelloServlet extends HttpServlet {
 		String name = req.getParameter("user");
 		String message = hello.doHello(name);
 		req.setAttribute("message", message);
-		req.getRequestDispatcher("hello.jsp").forward(req, resp);
+		req.getRequestDispatcher("Hello.jsp").forward(req, resp);
 		
 	}
 
