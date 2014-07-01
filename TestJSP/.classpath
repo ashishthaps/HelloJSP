@@ -76,8 +76,8 @@
 	</classpathentry>
 	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/servlet-api.jar" sourcepath="/J2EE7_CONTAINER_SRC">
 		<attributes>
-			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 			<attribute name="javadoc_location" value="http://tomcat.apache.org/tomcat-8.0-doc/servletapi/"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="var" path="J2EE7_CONTAINER_LIB/tomcat-api.jar">
@@ -151,5 +151,8 @@
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="lib/taglibs-standard-impl-1.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/taglibs-standard-jstlel-1.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/taglibs-standard-spec-1.2.1.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
