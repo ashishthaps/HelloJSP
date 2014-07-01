@@ -1,6 +1,8 @@
 <%@ page session="true" import="java.util.*, shopping.CD"%>
 <%
-	Vector<CD> buylist = (Vector<CD>) session.getAttribute("shopping.shoppingcart");
+	@SuppressWarnings("unchecked")
+	Vector<CD> buylist = (Vector<CD>) session
+			.getAttribute("shopping.shoppingcart");
 	if (buylist != null && (buylist.size() > 0)) {
 %>
 <center>
