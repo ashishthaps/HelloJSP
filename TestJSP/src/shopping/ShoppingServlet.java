@@ -6,17 +6,13 @@ import java.io.*;
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
-
 import shopping.CD;
-
 @SuppressWarnings("serial")
 @WebServlet(name = "ShoopingServlet", urlPatterns = { "/ShoppingDemo/Shopping.do" })
 public class ShoppingServlet extends HttpServlet {
-
 	public void init(ServletConfig conf) throws ServletException {
 		super.init(conf);
 	}
-
 	public void doPost(HttpServletRequest req, HttpServletResponse res)
 			throws ServletException, IOException {
 		HttpSession session = req.getSession(false);
